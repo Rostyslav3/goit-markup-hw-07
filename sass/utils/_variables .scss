@@ -1,0 +1,41 @@
+:root {
+  --primary-text-color: #212121;
+  --title-text-color: #757575;
+  --accent-color: #2196f3;
+  --icon-background-color: #f5f4fa;
+  --card-gap: 30px;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+button {
+  cursor: pointer;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+body {
+  margin: 0 auto;
+  max-width: 1600px;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  background-color: white;
+  color: var(--primary-text-color);
+}
